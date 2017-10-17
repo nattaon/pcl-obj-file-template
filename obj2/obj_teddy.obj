@@ -1,19 +1,31 @@
 # Blender v2.79 (sub 0) OBJ File: ''
 # by mionz generator; position arrange in U direction toward normal
-# 106 84 35
+# 1.06 0.84 0.35
 mtllib obj_teddy.mtl
 o Cube
-#1.front vertex position
+#5.top vertex position
+v -0.53 0.42 -0.175
+v -0.53 0.42 0.175
+v 0.53 0.42 0.175
+v 0.53 0.42 -0.175
+
+#1.front vertex position : union direction
 v -0.53 0.42 0.175
 v -0.53 -0.42 0.175
 v 0.53 -0.42 0.175
 v 0.53 0.42 0.175
 
-#2.back vertex position
-v 0.53 0.42 -0.175
+#6.bottom vertex position
+v -0.53 -0.42 0.175
+v -0.53 -0.42 -0.175
 v 0.53 -0.42 -0.175
+v 0.53 -0.42 0.175
+
+#2.back vertex position : intersec direction
 v -0.53 -0.42 -0.175
 v -0.53 0.42 -0.175
+v 0.53 0.42 -0.175
+v 0.53 -0.42 -0.175
 
 #3.left vertex position
 v -0.53 0.42 -0.175
@@ -27,59 +39,59 @@ v 0.53 -0.42 0.175
 v 0.53 -0.42 -0.175
 v 0.53 0.42 -0.175
 
-#5.top vertex position
-v -0.53 0.42 -0.175
-v -0.53 0.42 0.175
-v 0.53 0.42 0.175
-v 0.53 0.42 -0.175
-
-#6.bottom vertex position
-v -0.53 -0.42 0.175
-v -0.53 -0.42 -0.175
-v 0.53 -0.42 -0.175
-v 0.53 -0.42 0.175
-
-#1.front texture position
-vt 0 1
-vt 0 0.845215
-vt 0.195313 0.845215
-vt 0.195313 1
-
-#2.back texture position
-vt 0 0.845215
-vt 0 0.69043
-vt 0.195313 0.69043
-vt 0.195313 0.845215
-
-#3.left texture position
-vt 0.195313 1
-vt 0.195313 0.845215
-vt 0.259766 0.845215
+#1.top texture position
+vt 0.0644531 1
+vt 0.0644531 0.935547
+vt 0.259766 0.935547
 vt 0.259766 1
 
-#4.right texture position
-vt 0.195313 0.845215
-vt 0.195313 0.69043
-vt 0.259766 0.69043
-vt 0.259766 0.845215
+#2.front texture position
+vt 0.0644531 0.935547
+vt 0.0644531 0.780762
+vt 0.259766 0.780762
+vt 0.259766 0.935547
 
-#5.top texture position
-vt 0 0.69043
-vt 0 0.625977
-vt 0.195313 0.625977
-vt 0.195313 0.69043
+#3.bottom texture position
+vt 0.0644531 0.780762
+vt 0.0644531 0.716309
+vt 0.259766 0.716309
+vt 0.259766 0.780762
 
-#6.bottom texture position
-vt 0 0.625977
-vt 0 0.561523
-vt 0.195313 0.561523
-vt 0.195313 0.625977
+#4.back texture position
+vt 0.0644531 0.716309
+vt 0.0644531 0.561523
+vt 0.259766 0.561523
+vt 0.259766 0.716309
+
+#5.left texture position
+vt 0 0.935547
+vt 0 0.780762
+vt 0.0644531 0.780762
+vt 0.0644531 0.935547
+
+#6.right texture position
+vt 0.259766 0.935547
+vt 0.259766 0.780762
+vt 0.324219 0.780762
+vt 0.324219 0.935547
+
+#5.top normal 
+vn 0.0000 1.0000 0.0000
+vn 0.0000 1.0000 0.0000
+vn 0.0000 1.0000 0.0000
+vn 0.0000 1.0000 0.0000
 
 #1.front normal 
 vn 0.0000 0.0000 1.0000
 vn 0.0000 0.0000 1.0000
 vn 0.0000 0.0000 1.0000
 vn 0.0000 0.0000 1.0000
+
+#6.bottom normal 
+vn 0.0000 -1.0000 0.0000
+vn 0.0000 -1.0000 0.0000
+vn 0.0000 -1.0000 0.0000
+vn 0.0000 -1.0000 0.0000
 
 #2.back normal 
 vn 0.0000 0.0000 -1.0000
@@ -98,18 +110,6 @@ vn 1.0000 0.0000 0.0000
 vn 1.0000 0.0000 0.0000
 vn 1.0000 0.0000 0.0000
 vn 1.0000 0.0000 0.0000
-
-#5.top normal 
-vn 0.0000 1.0000 0.0000
-vn 0.0000 1.0000 0.0000
-vn 0.0000 1.0000 0.0000
-vn 0.0000 1.0000 0.0000
-
-#6.bottom normal 
-vn 0.0000 -1.0000 0.0000
-vn 0.0000 -1.0000 0.0000
-vn 0.0000 -1.0000 0.0000
-vn 0.0000 -1.0000 0.0000
 
 usemtl Material
 s off
